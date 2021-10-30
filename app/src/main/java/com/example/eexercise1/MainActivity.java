@@ -11,6 +11,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private Button main_BTN_start;
+    private int x = 6;
     private TextView main_txt_info;
     private EditText main_LBL_passwordField;
 
