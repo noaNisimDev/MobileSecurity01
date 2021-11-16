@@ -19,14 +19,16 @@
         android:text="Hello!"
         android:textSize="40dp"
         android:textColor="@color/greyTitle"
+        tools:ignore="MissingClass" />
 
-       />
+
 
     <EditText
         android:id="@+id/main_LBL_passwordField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter password please "
+        android:inputType="numberPassword"
+        android:hint="Enter password please"
         android:textSize="15dp"
         android:layout_marginTop="70dp"/>
 
@@ -34,7 +36,8 @@
         android:id="@+id/main_BTN_start"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Let's start"
+        android:text="Check Password"
+        android:enabled="false"
         android:textColor="#6A7885"
         android:textSize="25dp"
         android:layout_marginTop="5dp"
